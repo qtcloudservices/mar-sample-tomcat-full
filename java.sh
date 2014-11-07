@@ -1,3 +1,4 @@
 #!/bin/sh
 
-sh apache-tomcat/bin/startup.sh 
+cd apache-tomcat/bin
+./startup.sh 
