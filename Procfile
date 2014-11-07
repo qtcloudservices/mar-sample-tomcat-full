@@ -1,1 +1,1 @@
-web: bin/start-nginx ./java.sh
+web: ./java.sh
