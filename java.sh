@@ -1,4 +1,4 @@
 #!/bin/sh
 
 cd apache-tomcat/bin
-./startup.sh 
+./catalina.sh run
