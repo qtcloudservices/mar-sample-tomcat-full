@@ -95,6 +95,8 @@
 #                   LOGGING_MANAGER="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"
 # -----------------------------------------------------------------------------
 
+echo '>>> JAVA_OPTS: ' $JAVA_OPTS
+
 # OS specific support.  $var _must_ be set to either true or false.
 cygwin=false
 darwin=false
