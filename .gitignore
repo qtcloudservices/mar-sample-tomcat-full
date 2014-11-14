@@ -1,1 +1,3 @@
-/bin
+apache-tomcat/logs/**
+apache-tomcat/webapps/**/
+apache-tomcat/work/**
