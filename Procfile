@@ -1,1 +1,1 @@
-web: ./java.sh 
+web: ./java.sh
