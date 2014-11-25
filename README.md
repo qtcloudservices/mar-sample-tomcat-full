@@ -1,4 +1,4 @@
-# Managed Application Runtime - Apache Tomcat server full deployment example
+# Managed Application Runtime - Apache Tomcat Server Full Deployment Example
 
 This is an example of full Apache Tomcat server deployment with a sample "Hello World" application for Qt Cloud Services - Managed Application Runtime ("**MAR**"). More information about [Apache Tomcat](http://tomcat.apache.org/).
 
@@ -6,7 +6,7 @@ This is an example of full Apache Tomcat server deployment with a sample "Hello 
 
 See the Managed Application Runtime getting started documentation at Qt Cloud Services [Developer Documentation ](https://developer.qtcloudservices.com/mar/getting-started)
 
-## Details About This Example
+## Some Notes About the Files in This Example
 
 
 ### Procfile
@@ -17,7 +17,7 @@ Procfile instructs the web process type to run the java.sh file which containts 
 
 Upon deployment Qt Cloud Services MAR container provides an environmental variable **$PORT** for which the HTTPS requests hitting Qt Cloud Services load balancer SSL port are internally forwarded into. 
 
-When running this sample locally without the **$PORT** environmental variable set Tomcat will listen the HTTP port 8080 for incoming connections. In case the file "apache-tomcat/conf/server.xml" has not been mofified, this script changes the default 8080 listener port to match the MAR container defined **$PORT** when triggered by a web process in MAR container.
+When running this sample locally without the **$PORT** environmental variable set Tomcat will listen the HTTP port 8080 for incoming connections. In case the file "apache-tomcat/conf/server.xml" has not been mofified, this script changes the default 8080 listener port to match the MAR container defined **$PORT** when executed by a web process in MAR container.
 
 ### system.properties
 
