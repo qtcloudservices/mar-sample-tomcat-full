@@ -1,4 +1,4 @@
-# Managed Application Runtime - Spring Boot Application Example 
+# Managed Application Runtime - Apache Tomcat server full deployment example
 
 This is an example of full Apache Tomcat server deployment with a sample "Hello World" application for Qt Cloud Services - Managed Application Runtime ("**MAR**"). More information about [Apache Tomcat]http://tomcat.apache.org/).
 
