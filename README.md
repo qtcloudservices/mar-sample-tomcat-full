@@ -29,7 +29,7 @@ This file contains only the dependency information about Java version to be used
 
 ## Running and Testing Application Locally
 
-You can start this application from the application root directory with the same following command as declared in the **Procfile** once the project has been built with Maven:
+You can start this application from the application root directory with the following commands depending your operating system:
 
 ### *nix
 ```
