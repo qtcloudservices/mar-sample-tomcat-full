@@ -58,4 +58,4 @@ Please see the Qt Cloud Services [Developer Documentation ](https://developer.qt
 qtc-cli mar envs:set BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi --app <your MAR app id here>
 ```
 
-Once having the application deployed and running in the cloud, you may test the sample application with your web browser at address https://<your-app-ID>.qtcloudapp.com/hello-world-webapp which should respond with "Hello World!".
+Once having the application deployed and running in the cloud, you may test the sample application with your web browser at address https://your-app-ID.qtcloudapp.com/hello-world-webapp which should respond with "Hello World!".
