@@ -52,9 +52,7 @@ Please see the Qt Cloud Services [Developer Documentation ](https://developer.qt
 
 **NOTE**: Without tweaking any command-line Java arguments regarding the heap memory usage deploy the sample app only to the instance which fulfills the following Runtime Size: **ar-1-small (2CU, 512MB)** 
 
-**NOTE 2**
-
-The following command must be run once with [qtc-cli tool](https://developer.qtcloudservices.com/qtc/cli) in order the system be able use the custom buildpack define in the .buildpacks file at the root directory of a project:
+**NOTE 2**: The following command must be run once with [qtc-cli tool](https://developer.qtcloudservices.com/qtc/cli) in order the system be able use the custom buildpack define in the .buildpacks file at the root directory of a project:
 
 ```
 qtc-cli mar envs:set BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi --app <your MAR app id here>
